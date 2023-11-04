@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Nov 04 15:41:53 VET 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-018b-9bdb-2a32-000006ec0a00 
+on database directory /home/carlos/NetBeansProjects/Prestamos2/test300723 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc7c054 
+Loaded from file:/home/carlos/Downloads/lib/derby.jar
+java.vendor=Red Hat, Inc.
+java.runtime.version=17.0.8+7
+user.dir=/home/carlos/NetBeansProjects/Prestamos2
+os.name=Linux
+os.arch=amd64
+os.version=6.5.9-300.fc39.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
