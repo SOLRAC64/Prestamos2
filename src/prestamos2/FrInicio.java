@@ -220,6 +220,7 @@ public class FrInicio extends javax.swing.JFrame {
 
         //tabPaneMenuPpal.setBackgroundAt(0, java.awt.Color.BLUE);
         tabPaneMenuPpal.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        tabPaneMenuPpal.setFont(new java.awt.Font("URW Gothic", 0, 18)); // NOI18N
         tabPaneMenuPpal.setMaximumSize(new java.awt.Dimension(795, 495));
         tabPaneMenuPpal.setMinimumSize(new java.awt.Dimension(795, 495));
         tabPaneMenuPpal.setPreferredSize(new java.awt.Dimension(795, 495));
@@ -235,7 +236,7 @@ public class FrInicio extends javax.swing.JFrame {
             }
         });
 
-        pnInicio.setBackground(new java.awt.Color(0, 255, 204));
+        pnInicio.setBackground(new java.awt.Color(0, 102, 102));
         pnInicio.setMaximumSize(new java.awt.Dimension(690, 490));
         pnInicio.setMinimumSize(new java.awt.Dimension(690, 490));
         pnInicio.setPreferredSize(new java.awt.Dimension(690, 490));
@@ -323,7 +324,7 @@ public class FrInicio extends javax.swing.JFrame {
 
         pnListarClientesPnPrestamo.add(jScrollPane6, java.awt.BorderLayout.CENTER);
 
-        pnBusquedaPor1.setBackground(new java.awt.Color(0, 255, 204));
+        pnBusquedaPor1.setBackground(new java.awt.Color(0, 102, 102));
 
         lbBusquedaPor1.setText("Busqueda por:");
 
@@ -355,7 +356,7 @@ public class FrInicio extends javax.swing.JFrame {
                 .addComponent(btApellido1)
                 .addGap(18, 18, 18)
                 .addComponent(tfBusqueda1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(70, Short.MAX_VALUE))
             .addGroup(pnBusquedaPor1Layout.createSequentialGroup()
                 .addComponent(btClienteNuevo)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -683,7 +684,7 @@ public class FrInicio extends javax.swing.JFrame {
                                 .addComponent(jLabel36)
                                 .addGap(7, 7, 7)
                                 .addComponent(tfMontoCuotaPnPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(279, Short.MAX_VALUE))
+                .addContainerGap(242, Short.MAX_VALUE))
         );
         pnPrestamoNuevoPnPrestamoLayout.setVerticalGroup(
             pnPrestamoNuevoPnPrestamoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -801,7 +802,7 @@ public class FrInicio extends javax.swing.JFrame {
                 .addComponent(btApellido)
                 .addGap(18, 18, 18)
                 .addComponent(tfBusqueda, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(132, Short.MAX_VALUE))
+                .addContainerGap(70, Short.MAX_VALUE))
         );
         pnBusquedaPorLayout.setVerticalGroup(
             pnBusquedaPorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1112,7 +1113,7 @@ public class FrInicio extends javax.swing.JFrame {
         pn1.setLayout(pn1Layout);
         pn1Layout.setHorizontalGroup(
             pn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 660, Short.MAX_VALUE)
+            .addGap(0, 623, Short.MAX_VALUE)
         );
         pn1Layout.setVerticalGroup(
             pn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1127,7 +1128,7 @@ public class FrInicio extends javax.swing.JFrame {
         pn2.setLayout(pn2Layout);
         pn2Layout.setHorizontalGroup(
             pn2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 660, Short.MAX_VALUE)
+            .addGap(0, 623, Short.MAX_VALUE)
         );
         pn2Layout.setVerticalGroup(
             pn2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1341,7 +1342,7 @@ public class FrInicio extends javax.swing.JFrame {
         layPane.setLayout(layPaneLayout);
         layPaneLayout.setHorizontalGroup(
             layPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 660, Short.MAX_VALUE)
+            .addGap(0, 623, Short.MAX_VALUE)
         );
         layPaneLayout.setVerticalGroup(
             layPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
